@@ -1,4 +1,11 @@
+/*Print a following pattern 
+1
+1 2
+1 2 3
+1 2 3 4
+*/
 import java.util.*;
+
  public class six{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

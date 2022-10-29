@@ -10,9 +10,11 @@ class second {
         for(int i=str.length()-1; i>=0; i--){
             rev+=str.charAt(i);
         }
+       
         if (str.equals(rev)) {
             System.out.println("String is Palindrom");
         }
+        
         else{
             System.out.println("String is Not Palindrom");
         }

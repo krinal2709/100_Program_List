@@ -1,9 +1,11 @@
+
+//a sum of even number into 1D array
 import java.util.*;
 
  class first {
 public static void main(String[] args) {
     int Size, i, EvenSum = 0;
-		Scanner sc = new Scanner(System.in);
+		Scanner sc= new Scanner(System.in);
 	 
 		System.out.print(" Please Enter Number of elements in an array : ");
 		Size = sc.nextInt();	
@@ -25,4 +27,4 @@ public static void main(String[] args) {
 		}		
 		System.out.println("\n The Sum of Even Numbers in this Array = " + EvenSum);
 	}
-}
+ }
